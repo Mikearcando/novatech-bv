@@ -1,0 +1,44 @@
+# =============================================================================
+# Netplan configuratie voor DevStack VM (Ubuntu 22.04)
+# Bestand: /etc/netplan/00-installer-config.yaml
+#
+# INSTRUCTIES:
+# 1. Pas 'ens18' aan naar de naam van jouw netwerkinterface
+#    (controleer met: ip link show)
+# 2. Pas IP-adressen aan naar jouw omgeving
+# 3. Kopieer naar /etc/netplan/00-installer-config.yaml op de VM
+# 4. Voer uit: sudo netplan apply
+# =============================================================================
+
+network:
+  version: 2
+  renderer: networkd
+
+  ethernets:
+    # Pas 'ens18' aan naar jouw interfacenaam
+    # Veelvoorkomende namen: ens18, ens3, eth0, enp3s0
+    ens18:
+      dhcp4: no
+      dhcp6: no
+
+      # Statisch IP voor DevStack node
+      addresses:
+        - 192.168.100.20/24
+
+      # Standaardgateway
+      routes:
+        - to: default
+          via: 192.168.100.1
+
+      # DNS servers
+      # Primair: DC01 (voor technova.local resolutie)
+      # Fallback: Google DNS
+      nameservers:
+        search:
+          - technova.local
+        addresses:
+          - 192.168.100.11    # DC01 — primaire DNS
+          - 8.8.8.8           # Google — fallback
+
+      # MTU instellen voor betere performance met OpenStack
+      mtu: 1500

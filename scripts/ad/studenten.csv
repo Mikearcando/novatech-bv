@@ -1,0 +1,46 @@
+Voornaam;Achternaam;Klas;Team
+Jan;Jansen;Klas-1A;Infra-Alpha
+Lisa;de Vries;Klas-1A;Infra-Alpha
+Ahmed;Bouali;Klas-1A;Infra-Alpha
+Maria;Santos;Klas-1A;Infra-Alpha
+Tim;Bakker;Klas-1A;Infra-Alpha
+Fatima;Yilmaz;Klas-1A;Infra-Beta
+Ravi;Sharma;Klas-1A;Infra-Beta
+Sara;Bakker;Klas-1A;Infra-Beta
+Lena;Visser;Klas-1A;Infra-Beta
+Noah;Meijer;Klas-1A;Infra-Beta
+Emma;van Dam;Klas-1B;Cloud-Alpha
+Lucas;Hendriks;Klas-1B;Cloud-Alpha
+Yara;Koster;Klas-1B;Cloud-Alpha
+Daan;Smit;Klas-1B;Cloud-Alpha
+Julia;Laan;Klas-1B;Cloud-Alpha
+Finn;de Boer;Klas-1B;Cloud-Beta
+Nora;Brouwer;Klas-1B;Cloud-Beta
+Sam;van Berg;Klas-1B;Cloud-Beta
+Iris;Peters;Klas-1B;Cloud-Beta
+Max;Timmerman;Klas-1B;Cloud-Beta
+Selin;Arslan;Klas-2A;Ops-Alpha
+Bryan;Osei;Klas-2A;Ops-Alpha
+Manon;Willems;Klas-2A;Ops-Alpha
+Joren;Claes;Klas-2A;Ops-Alpha
+Hana;Nakamura;Klas-2A;Ops-Alpha
+Robbe;Declercq;Klas-2A;Ops-Beta
+Ines;Fernandez;Klas-2A;Ops-Beta
+Tibo;Vanden Berg;Klas-2A;Ops-Beta
+Amber;Goossens;Klas-2A;Ops-Beta
+Wout;Martens;Klas-2A;Ops-Beta
+Kjell;Peeters;Klas-2A;Support
+Bo;Janssen;Klas-2A;Support
+Nathalie;Leemans;Klas-2A;Support
+Dylan;Wouters;Klas-2A;Support
+Laura;Vandenberghe;Klas-2A;Support
+Ruben;Desmet;Klas-1B;Security
+Axelle;Dubois;Klas-1B;Security
+Mathis;Lambert;Klas-1B;Security
+Elise;Simon;Klas-1B;Security
+Baptiste;Renard;Klas-1B;Security
+Nils;Hoffman;Klas-2A;DevOps
+Lara;Becker;Klas-2A;DevOps
+Jonas;Weber;Klas-2A;DevOps
+Sophie;Müller;Klas-2A;DevOps
+Felix;Schneider;Klas-2A;DevOps
